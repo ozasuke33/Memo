@@ -1,5 +1,3 @@
-# Memo
-
-## Godot
+### Godot
 
 [BlenderからエクスポートしたglTFをGodotで使う](Pages/GodotGltf.md)
