@@ -1,0 +1,3 @@
+# BlenderからエクスポートしたglTFをGodotで使う
+
+レンダーエンジンをEEVEEに切り替えた上でマテリアルタブからBackface Cullingを有効化する。
