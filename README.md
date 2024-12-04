@@ -2,4 +2,4 @@
 
 ## Godot
 
-[glTF周り](Pages/GodotGltf.md)
+[BlenderからエクスポートしたglTFをGodotで使う](Pages/GodotGltf.md)
