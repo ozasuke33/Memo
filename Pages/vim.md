@@ -46,9 +46,7 @@ colorscheme sorbet
 "set guifont=Courier_New:h10:cANSI:qDRAFT
 set guifont=Consolas:h10:cANSI:qDRAFT
 
-if !has('nvim')
-        packadd! editorconfig
-endif
+packadd! editorconfig
 
 nnoremap <LeftMouse> <LeftMouse>i
 nmap <C-LeftMouse> <C-]>
