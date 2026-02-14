@@ -1,3 +1,8 @@
+
+- vimfiles/pack/plugins/start下にプラグインをいれる
+
+
+_vimrc
 ```vim
 language messages English_United States
 set langmenu=en_US.UTF-8
