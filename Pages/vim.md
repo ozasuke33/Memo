@@ -1,6 +1,7 @@
 
 - vimfiles/pack/plugins/start下にプラグインをいれる
 
+- ctrlp.vim
 
 _vimrc
 ```vim
