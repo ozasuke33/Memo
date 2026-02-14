@@ -7,6 +7,7 @@ git submodule add https://github.com/libsdl-org/SDL
 submoduleを特定のタグに
 ```
 cd SDL
+git pull
 git checkout release-3.2.20
 ```
 
