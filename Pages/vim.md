@@ -46,7 +46,9 @@ colorscheme sorbet
 "set guifont=Courier_New:h10:cANSI:qDRAFT
 set guifont=Consolas:h10:cANSI:qDRAFT
 
-packadd! editorconfig
+if !has('nvim')
+        packadd! editorconfig
+endif
 
 nnoremap <LeftMouse> <LeftMouse>i
 nmap <C-LeftMouse> <C-]>
@@ -65,8 +67,8 @@ let g:ctrlp_prompt_mappings = {
                         \ 'PrtHistory(1)':     ['<c-k>'],
                         \ }
 
-set pythonthreehome=~\\AppData\\Local\\Programs\\Python\\Python312
-set pythonthreedll=~\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll
+"set pythonthreehome=~\\AppData\\Local\\Programs\\Python\\Python312
+"set pythonthreedll=~\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll
 
-let g:jedi#goto_command = "<C-]>"
+"let g:jedi#goto_command = "<C-]>"
 ```
